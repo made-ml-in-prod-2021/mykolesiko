@@ -1,0 +1,25 @@
+#input_data_path: "data/raw/heart.csv"
+#output_model_path: "models/model.pkl"
+#metric_path: "models/metrics.json"
+#splitting_params:
+#  val_size: 0.1
+#  random_state: 3
+#train_params:
+#  model_type: "LogisticRegressor"
+feature_params:
+  categorical:
+    - "sex"
+    - "cp"
+    - "fbs"
+    - "exang"
+    - "slope"
+    - "ca"
+    - "thal"
+  numerical:
+    - "age"
+    - "trestbps"
+    - "chol"
+    - "restecg"
+    - "thalach"
+    - "oldpeak"
+  target: "target"
