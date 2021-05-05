@@ -12,7 +12,7 @@ setup(
 #        "scikit-learn==0.24.1",
 #        "dataclasses==0.8",
 #        "pyyaml==3.11",
-        "marshmallow-dataclass==8.3.0",
+         "marshmallow-dataclass==8.3.0",
 #        "pandas==1.1.5",
     ],
     license="MIT",

@@ -1,0 +1,5 @@
+.vscode
+build
+workspace.code-workspace
+dist
+heart*
