@@ -1,0 +1,7 @@
+.vscode
+build
+workspace.code-workspace
+dist
+heart*
+.idea
+.venv

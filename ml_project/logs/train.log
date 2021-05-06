@@ -1,0 +1,14 @@
+INFO: start train pipeline with params TrainingConfigParams(input_data_path='./data/raw/heart.csv', output_model_path='./models/model_forest.pkl', metric_path='./models/metrics_forest.json', splitting_params=SplittingParams(val_size=0.2, random_state=42, stratify=None), model_params=ModelParams(model_type='RandomForestClassifier'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'))
+INFO: data.shape is (303, 14)
+INFO: train_df.shape is (242, 28)
+INFO: val_df.shape is (61, 28)
+INFO: start train pipeline with params TrainingConfigParams(input_data_path='./data/raw/heart.csv', output_model_path='./models/model_forest.pkl', metric_path='./models/metrics_forest.json', splitting_params=SplittingParams(val_size=0.2, random_state=42, stratify=None), model_params=ModelParams(model_type='RandomForestClassifier'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'))
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.2, random_state=42, stratify=None)
+INFO: train_data.shape is (242, 28)
+INFO: val_data.shape is (61, 28)
+INFO: created model  ModelParams(model_type='RandomForestClassifier')
+INFO: ctrain model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8524590163934426}

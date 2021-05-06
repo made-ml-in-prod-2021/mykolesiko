@@ -1,5 +1,2 @@
-.vscode
-build
-workspace.code-workspace
-dist
-heart*
+.idea
+__pycache__

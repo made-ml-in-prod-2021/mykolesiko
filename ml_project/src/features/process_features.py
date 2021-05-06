@@ -4,6 +4,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
+from src.config import FeatureParams
 
 
 def create_pipeline_for_categorical_params() -> Pipeline:

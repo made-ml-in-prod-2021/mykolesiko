@@ -8,5 +8,5 @@ __all__ = [
     "FeatureParams", "ModelParams",
     "SplittingParams",
     "TrainingConfigParams",
-    "read_training_pipeline_params",
+    "read_training_config_params",
 ]

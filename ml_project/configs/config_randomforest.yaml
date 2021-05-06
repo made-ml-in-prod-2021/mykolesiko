@@ -4,7 +4,7 @@ metric_path: "./models/metrics_forest.json"
 splitting_params:
   val_size: 0.2
   random_state: 42
-  stratify: "target"
+  stratify:
 model_params:
   model_type: "RandomForestClassifier"
 metric_params:
