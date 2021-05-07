@@ -26,19 +26,21 @@ class SplittingParams:
 
 @dataclass()
 class TransformerParams:
-    path: str
+    file: str
+
 
 @dataclass()
 class TrainingConfigParams:
-    name : str
-    input_data_path: str
-    output_model_path: str
-    metric_path: str
+    model_folder: str
+    input_data_file: str
+    model_file: str
+    metric_file: str
     splitting_params: SplittingParams
     model_params: ModelParams
     metric_params: List[str]
     feature_params: FeatureParams
-    transformer_params:  TransformerParams
+    transformer_params: TransformerParams
+    logging_config: str
 
 
 ConfigSchema = class_schema(TrainingConfigParams)

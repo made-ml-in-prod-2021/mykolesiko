@@ -26,11 +26,12 @@ Assuming that current directory is root of git repository you should make next s
 
 4. Create and train model. In this pipeline next steps would be :
 
-   python -m src.implement_pipeline -config [path to config.yaml file]
+   python -m src.implement_pipeline --config [path to config.yaml file]
 
-5. Get predictions:
+5. Get predictions ():
+   path_to_save_predictions - use predict/{some_new_folder_name}, if there is no such folder, it would be created.
     
-   python -m src.model.predict --data [path_to_data] --model [path_to_model] --output_path [path_to_predictions]
+   python -m src.model.predict --data [path_to_data_file] --model [path_to_model_file] --transformer [path_transformer_file] -output_path [path_to_save_predictions]
 
 Project Organization
 ------------
@@ -79,7 +80,7 @@ Let's estimate what's was done in this homework:
   -1) положите код в папку ml_project   +
    0) В описании к пулл реквесту описаны основные "архитектурные" и тактические решения, 
       которые сделаны в вашей работе. В общем, описание что именно вы сделали и для чего, 
-      чтобы вашим ревьюерам было легче понять ваш код. (2 балла)
+      чтобы вашим ревьюерам было легче понять ваш код. (2 балла) +
 
    1) Выполнение EDA, закоммитьте ноутбук в папку с ноутбуками (2 баллов)
       Вы так же можете построить в ноутбуке прототип(если это вписывается в ваш стиль работы)
@@ -97,14 +98,14 @@ Let's estimate what's was done in this homework:
       с помощью которых можно обучить модель (разные модели, стратегии split, preprocessing) (3 балла) +
 
    7) Используются датаклассы для сущностей из конфига, а не голые dict (3 балла) +
-   8) Используйте кастомный трансформер(написанный своими руками) и протестируйте его(3 балла)
+   8) Используйте кастомный трансформер(написанный своими руками) и протестируйте его(3 балла) +
    9) Обучите модель, запишите в readme как это предлагается (3 балла) +
    10) напишите функцию predict, которая примет на вход артефакт/ы от обучения, тестовую выборку(без меток) и 
        запишет предикт, напишите в readme как это сделать (3 балла)   +
 
    11) Используется hydra  (https://hydra.cc/docs/intro/) (3 балла - доп баллы) (-)
    12) Настроен CI(прогон тестов, линтера) на основе github actions  (3 балла - доп баллы (будем проходить дальше в курсе, но если есть желание поразбираться - welcome)
-   13) Проведите самооценку, опишите, в какое колво баллов по вашему мнению стоит оценить вашу работу и почему (1 балл доп баллы) 
+   13) Проведите самооценку, опишите, в какое колво баллов по вашему мнению стоит оценить вашу работу и почему (1 балл доп баллы) +
 
 
 

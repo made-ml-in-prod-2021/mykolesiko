@@ -1,9 +1,9 @@
-name : "RandomForest"
+folder : "./tests/
 input_data_path: "./data/raw/heart.csv"
-output_model_path: "./models/RandomForest/model.pkl"
-metric_path: "./models/RandomForest/metrics.json"
+model_file: "model.pkl"
+metric_file: "metrics.json"
 splitting_params:
-  val_size: 0.2
+  val_size: 0.3
   random_state: 42
   stratify:
 model_params:
@@ -29,4 +29,6 @@ feature_params:
     - "oldpeak"
   target: "target"
 transformer_params:
-  path: "./models/RandomForest/transformer.pkl"
+  file:  "transformer.pkl"
+logging_params:
+  file : "logs_randomforest.yaml"

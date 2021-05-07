@@ -11,10 +11,17 @@ import click
 import pandas as pd
 import sys
 
+
 from src.config import read_training_config_params, TrainingConfigParams
-from src.features import create_feature_array, create_target, create_transformer, split_train_val_data, save_transformer
+from src.features import create_target, TransformerClass
 from src.model import ModelClass
 from src.logs import setup_logging, logger
+from src.utils import get_path
+from src.constants import MODELS_DIR, CONFIG_DIR, LOGS_DIR, DATA_DIR, DATA_RAW_DIR
+from src.data import split_train_val_data
+
+
+
 
 
 def setup_parser(parser):
@@ -24,30 +31,34 @@ def setup_parser(parser):
     parser.add_argument(
         "--config", "-c",
         required=True,
-        default=None,
-        help="name of config file with path, default path is ../configs/config.yaml",
+        default=True,
+        help="name of config file with path, default path is ./configs/config.yaml",
         metavar="FPATH",
     )
 
     parser.add_argument(
         "--logs", "-l",
-        required=True,
-        default=None,
-        help="name of logs config file, default path is ../configs/logs.yaml",
+        required=False,
+        default=True,
+        help="name of logs config file, default path is in model config file",
         metavar="FPATH",
     )
 
 
 def model_pipeline(params: TrainingConfigParams):
-    os.mkdir(params.)
+    ### implement all pipeline to get the model ###
     logger.info(f"start train pipeline with params {params}")
-    data = pd.read_csv(params.input_data_path)
+    model_folder = os.path.join(os.getcwd(), MODELS_DIR, params.model_folder)
+    if (not os.path.exists(model_folder)) :
+        os.mkdir(model_folder)
+
+    data = pd.read_csv(os.path.join(DATA_DIR, DATA_RAW_DIR, params.input_data_file))
     logger.info(f"data.shape is {data.shape}")
 
     logger.info(f"transform the features {params.feature_params}")
-    transformer = create_transformer(params.feature_params)
-    save_transformer(transformer, params.transformer_params.path)
-    data_processed = create_feature_array(transformer, data)
+    transformer = TransformerClass()
+    data_processed = transformer.fit_transform(data, params.feature_params)
+    transformer.save(os.path.join(os.getcwd(), MODELS_DIR, params.model_folder, params.transformer_params.file))
     target = create_target(data, params.feature_params)
 
     logger.info(f"splitted data {params.splitting_params}")
@@ -59,10 +70,10 @@ def model_pipeline(params: TrainingConfigParams):
     logger.info(f"val_data.shape is {val_data.shape}")
 
     logger.info(f"created model  {params.model_params}")
-    model = ModelClass(params.model_params)
+    model = ModelClass()
 
     logger.info(f"train model")
-    model.train(train_data, y_train)
+    model.train(train_data, y_train, params.model_params)
 
     logger.info(f"predict values")
     predicts = model.predict(val_data)  #
@@ -70,19 +81,21 @@ def model_pipeline(params: TrainingConfigParams):
     metrics = model.evaluate(predicts, y_test)
     logger.info(f"metrics are  {metrics}")
 
-    with open(params.metric_path, "w") as metric_file:
+    with open(os.path.join(os.getcwd(), MODELS_DIR, params.model_folder, params.metric_file), "w") as metric_file:
         json.dump(metrics, metric_file)
 
-    model.serialize_model(params.output_model_path)
+    model.serialize_model(os.path.join(os.getcwd(), MODELS_DIR, params.model_folder, params.model_file))
 
-    return metrics
+    return model
 
 
 # @click.command(name="train_pipeline")
 # @click.argument("config_path")
 def model_creation_pipeline(config_path: str):
-    params = read_training_config_params(config_path)
-    model_pipeline(params)
+    params = read_training_config_params(get_path(CONFIG_DIR, config_path))
+    setup_logging(params.logging_config, os.path.join(os.getcwd(), MODELS_DIR, params.model_folder, "train.log"))
+    model = model_pipeline(params)
+    return params, model
 
 
 if __name__ == "__main__":
@@ -93,8 +106,8 @@ if __name__ == "__main__":
     )
     setup_parser(parser)
     arguments = parser.parse_args()
-    setup_logging(arguments.logs)
+
     # arguments.callback(arguments)
 
-    metrics = model_creation_pipeline(arguments.config)
-    print(metrics)
+    params, model = model_creation_pipeline(arguments.config)
+    #print(metrics)

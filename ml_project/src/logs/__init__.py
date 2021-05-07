@@ -1,3 +1,3 @@
-from .logs import setup_logging, logger
+from .logs import setup_logging, logger, LOGGER_YAML_DEFAULT
 
-__all__ = ["setup_logging", "logger"]
+__all__ = ["setup_logging", "logger", LOGGER_YAML_DEFAULT]

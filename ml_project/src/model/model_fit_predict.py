@@ -16,11 +16,17 @@ class ModelClass:
         pass
 
     def load(self, path):
+        print(path)
         with open(path, "rb") as f:
             self.model = pickle.load(f)
         return self.model
 
     def train(self, features: pd.DataFrame, target: pd.Series, params: ModelParams) -> ModelType:
+        self.params = params
+        self.features = features
+        self.target = target
+
+
         print(self.params.model_type)
         self.params = params
         if self.params.model_type == "RandomForestClassifier":
@@ -35,8 +41,8 @@ class ModelClass:
         return self.model
 
     def predict(self, features: pd.DataFrame) -> np.ndarray:
-        predicts = self.model.predict(features)
-        return predicts
+        self.predicts = self.model.predict(features)
+        return self.predicts
 
     def evaluate(self, predicts: np.ndarray, target: pd.Series) -> Dict[str, int]:
         return {
@@ -48,4 +54,9 @@ class ModelClass:
     def serialize_model(self, output: str) -> str:
         with open(output, "wb") as f:
             pickle.dump(self.model, f)
+        self.path = output
         return output
+
+
+
+
