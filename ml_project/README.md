@@ -22,7 +22,8 @@ Assuming that current directory is root of git repository you should make next s
 2. cd ml_project
 
 3. Test the code with pytest. To run scripts use command:
-      pytest tests	
+
+   pytest tests	
 
 4. Create and train model. In this pipeline next steps would be :
 
@@ -82,7 +83,7 @@ Let's estimate what's was done in this homework:
       которые сделаны в вашей работе. В общем, описание что именно вы сделали и для чего, 
       чтобы вашим ревьюерам было легче понять ваш код. (2 балла) +
 
-   1) Выполнение EDA, закоммитьте ноутбук в папку с ноутбуками (2 баллов)
+   1) Выполнение EDA, закоммитьте ноутбук в папку с ноутбуками (2 баллов) +
       Вы так же можете построить в ноутбуке прототип(если это вписывается в ваш стиль работы)
       Можете использовать не ноутбук, а скрипт, который сгенерит отчет, закоммитьте и скрипт и отчет (за это + 1 балл)
 
