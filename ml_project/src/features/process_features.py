@@ -8,36 +8,48 @@ from src.config import FeatureParams
 
 
 def create_pipeline_for_categorical_params() -> Pipeline:
-    return Pipeline(
-        [
-            ("OH", OneHotEncoder())
-        ]
-    )
+    return Pipeline([("OH", OneHotEncoder())])
+
 
 def create_pipeline_for_numerical_params() -> Pipeline:
-    return Pipeline(
-        [
-            ("impute", SimpleImputer(np.nan, 'mean'))
-            
-        ]
-    )
+    return Pipeline([("impute", SimpleImputer(np.nan, "mean"))])
 
 
 def create_transformer(params: FeatureParams) -> ColumnTransformer:
     transformer = ColumnTransformer(
         [
-            ("pipeline_for_categorical_params",  create_pipeline_for_categorical_params(), 
-            params.categorical),
-            ("pipeline_for_numerical_params",  create_pipeline_for_numerical_params(), 
-            params.numerical),
+            (
+                "pipeline_for_categorical_params",
+                create_pipeline_for_categorical_params(),
+                params.categorical,
+            ),
+            (
+                "pipeline_for_numerical_params",
+                create_pipeline_for_numerical_params(),
+                params.numerical,
+            ),
         ]
     )
     return transformer
+
+def save_transformer(transformer:  ColumnTransformer, path_to_save : str) -> str:
+    with open(path_to_save, "wb") as f:
+        pickle.dump(transformer, f)
+    return path_to_save
+
+
+def load_transformer(transformer:  ColumnTransformer, path_to_save : str) -> ColumnTransformer:
+    with open(path_to_save, "wb") as f:
+        transformer = pickle.load(f)
+    return transformer
+
 
 
 def create_target(data: pd.DataFrame, params: FeatureParams) -> pd.Series:
     return data[params.target]
 
 
-def create_feature_array(transformer: ColumnTransformer, df: pd.DataFrame) -> pd.DataFrame:
-    return pd.DataFrame(transformer.fit_transform(df))    
+def create_feature_array(
+        transformer: ColumnTransformer, df: pd.DataFrame
+) -> pd.DataFrame:
+    return pd.DataFrame(transformer.fit_transform(df))

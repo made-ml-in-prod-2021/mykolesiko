@@ -1,6 +1,7 @@
+name : "RandomForest"
 input_data_path: "./data/raw/heart.csv"
-output_model_path: "./models/model_forest.pkl"
-metric_path: "./models/metrics_forest.json"
+output_model_path: "./models/RandomForest/model.pkl"
+metric_path: "./models/RandomForest/metrics.json"
 splitting_params:
   val_size: 0.2
   random_state: 42
@@ -27,3 +28,5 @@ feature_params:
     - "thalach" 
     - "oldpeak"
   target: "target"
+transformer_params:
+  path: "./models/RandomForest/transformer.pkl"

@@ -25,7 +25,12 @@ class SplittingParams:
 
 
 @dataclass()
+class TransformerParams:
+    path: str
+
+@dataclass()
 class TrainingConfigParams:
+    name : str
     input_data_path: str
     output_model_path: str
     metric_path: str
@@ -33,6 +38,7 @@ class TrainingConfigParams:
     model_params: ModelParams
     metric_params: List[str]
     feature_params: FeatureParams
+    transformer_params:  TransformerParams
 
 
 ConfigSchema = class_schema(TrainingConfigParams)
