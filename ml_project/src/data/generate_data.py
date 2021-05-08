@@ -23,6 +23,6 @@ def generate_data(path_to_train_csv: str, num_rows : int, path_to_generated_data
         list_col_new = generate_from_hist(list_col, int(num_rows))
         data_new[col] = list_col_new
     data_new[data.columns].to_csv(path_to_generated_data, index = False)
-    print(data_new.head())
+    #print(data_new.head())
 
 
