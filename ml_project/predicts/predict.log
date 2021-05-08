@@ -1,0 +1,4 @@
+INFO: start predict data from ./data/test/test1.csv, model from ./models/RandomForest/model.pkl
+INFO: load transformer from  ./models/RandomForest/transformer.pkl
+INFO: load model: RandomForestClassifier(n_estimators=600)
+INFO: read data shape: (5, 13)
