@@ -36,8 +36,9 @@ class ModelClass:
         elif self.params.model_type == "GradientBoostingClassifier":
             self.model = GradientBoostingClassifier(n_estimators=100).fit(features, target)
         else:
-            self.model = LogisticRegression(max_iter=1000).fit(features, target)
+            self.model = LogisticRegression(max_iter=1000, solver = 'liblinear' ).fit(features, target)
 
+        print(self.model)
         return self.model
 
     def predict(self, features: pd.DataFrame) -> np.ndarray:

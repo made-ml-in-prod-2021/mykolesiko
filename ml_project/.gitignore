@@ -5,3 +5,5 @@ dist
 heart*
 .idea
 .venv
+*pycache*
+.coverage

@@ -65,7 +65,7 @@ if __name__ == "__main__":
     if (not os.path.exists(arguments.output)):
         os.mkdir(arguments.output)
 
-    setup_logging(os.path.join(os.getcwd(), CONFIG_DIR, LOGGER_YAML_DEFAULT), os.path.join(arguments.output, "predict.log"))
+    setup_logging(LOGGER_YAML_DEFAULT, os.path.join(arguments.output, "predict.log"))
     # arguments.callback(arguments)
 
     predictions = predict(arguments.data, arguments.model, arguments.transformer, arguments.output)

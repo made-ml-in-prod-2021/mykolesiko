@@ -5,7 +5,6 @@ import os
 import pickle
 import argparse
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-import sys
 
 import click
 import pandas as pd
@@ -52,12 +51,13 @@ def model_pipeline(params: TrainingConfigParams):
     if (not os.path.exists(model_folder)) :
         os.mkdir(model_folder)
 
-    data = pd.read_csv(os.path.join(DATA_DIR, DATA_RAW_DIR, params.input_data_file))
+    data = pd.read_csv(os.path.join(DATA_DIR, DATA_RAW_DIR, params.input_data_file) )
+    data_no_target = data.drop(columns = [params.feature_params.target])
     logger.info(f"data.shape is {data.shape}")
 
     logger.info(f"transform the features {params.feature_params}")
     transformer = TransformerClass()
-    data_processed = transformer.fit_transform(data, params.feature_params)
+    data_processed = transformer.fit_transform(data_no_target, params.feature_params)
     transformer.save(os.path.join(os.getcwd(), MODELS_DIR, params.model_folder, params.transformer_params.file))
     target = create_target(data, params.feature_params)
 
@@ -93,6 +93,12 @@ def model_pipeline(params: TrainingConfigParams):
 # @click.argument("config_path")
 def model_creation_pipeline(config_path: str):
     params = read_training_config_params(get_path(CONFIG_DIR, config_path))
+
+    model_folder = os.path.join(os.getcwd(), MODELS_DIR, params.model_folder)
+    if (not os.path.exists(model_folder)):
+        os.mkdir(model_folder)
+
+
     setup_logging(params.logging_config, os.path.join(os.getcwd(), MODELS_DIR, params.model_folder, "train.log"))
     model = model_pipeline(params)
     return params, model

@@ -1,10 +1,10 @@
-model_folder : "test"
+model_folder : "LogReg"
 input_data_file: "heart.csv"
 model_file: "model.pkl"
 metric_file: "metrics.json"
 splitting_params:
-  val_size: 0.3
-  random_state: 32
+  val_size: 0.2
+  random_state: 42
   stratify:
 model_params:
   model_type: "LogisticRegression"
@@ -30,4 +30,4 @@ feature_params:
   target: "target"
 transformer_params:
   file:  "transformer.pkl"
-logging_config: "logging_default.yaml"
+logging_config: "logging.yaml"
