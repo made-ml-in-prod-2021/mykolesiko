@@ -38,7 +38,7 @@ class ModelClass:
         else:
             self.model = LogisticRegression(max_iter=1000, solver = 'liblinear' ).fit(features, target)
 
-        print(self.model)
+        #print(self.model)
         return self.model
 
     def predict(self, features: pd.DataFrame) -> np.ndarray:

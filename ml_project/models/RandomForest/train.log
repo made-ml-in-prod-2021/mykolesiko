@@ -119,3 +119,23 @@ INFO: created model  ModelParams(model_type='RandomForestClassifier')
 INFO: train model
 INFO: predict values
 INFO: metrics are  {'accuracy': 0.8688524590163934}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='RandomForest', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.2, random_state=42, stratify=None), model_params=ModelParams(model_type='RandomForestClassifier'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.2, random_state=42, stratify=None)
+INFO: train_data.shape is (242, 28)
+INFO: val_data.shape is (61, 28)
+INFO: created model  ModelParams(model_type='RandomForestClassifier')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8852459016393442}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='RandomForest', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.2, random_state=42, stratify=None), model_params=ModelParams(model_type='RandomForestClassifier'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.2, random_state=42, stratify=None)
+INFO: train_data.shape is (242, 28)
+INFO: val_data.shape is (61, 28)
+INFO: created model  ModelParams(model_type='RandomForestClassifier')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8688524590163934}

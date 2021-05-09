@@ -37,10 +37,10 @@ Assuming that current directory is root of git repository you should make next s
 
 5. Generate test data 
 
-   python -m src.data.generate_data --train_data [path_to_train_data_file] --rows [num_of_rows_to_generate] --test_data [path_to_test_data_file]  
+   python -m src.data --train_data [path_to_train_data_file] --rows [num_of_rows_to_generate] --test_data [path_to_test_data_file]  
 
    try example:
-   python -m src.data.generate_data --train_data ./data/raw/heart.csv  --rows 100  --test_data ./data/test/test1.csv
+   python -m src.data --train_data ./data/raw/heart.csv  --rows 100  --test_data ./data/test/test1.csv
   
    check file test.csv in ./data/test/
 
