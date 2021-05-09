@@ -58,10 +58,10 @@ def test_load_model(test_model_path):
     sklearn_model = model.load(test_model_path)
     params1 = sklearn_model.get_params()
     print(params1)
-    assert params1['max_iter'] == 1000
+    assert params1['max_iter'] == 100
     assert params1['solver'] == 'liblinear'
 
 def test_predict(test_data:str, test_model_path: str, transformer_path:str, prediction_path: str):
     prediction  = predict(test_data, test_model_path, transformer_path, prediction_path)
-    #assert prediction.shape ==
+    assert prediction.shape == (100, 14)
 

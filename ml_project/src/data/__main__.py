@@ -1,10 +1,12 @@
-import logging
-import os
-
-import pickle
-import argparse
+"""
+    main for util generate data for tests and for predictions
+"""
+#import logging
+#import os
+#import pickle
+#import argparse
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from src.constants import CONFIG_DIR
+#from src.constants import CONFIG_DIR
 from .generate_data import generate_data
 
 
@@ -37,11 +39,8 @@ def setup_parser(parser):
     )
 
 
-
-
-
 if __name__ == "__main__":
-    #print("1")
+    # print("1")
     parser = ArgumentParser(
         prog="generator of data using train data",
         description="instrument for generating data to test",
@@ -50,5 +49,5 @@ if __name__ == "__main__":
 
     setup_parser(parser)
     arguments = parser.parse_args()
-    #print(arguments)
+    # print(arguments)
     generate_data(arguments.train_data, arguments.rows, arguments.test_data)

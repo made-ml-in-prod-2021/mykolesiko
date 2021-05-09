@@ -1,5 +1,6 @@
-from .predict import (
-    predict
-)
+"""
+    Module for prediction
+"""
+from .predict import predict
 
-__all__ = [predict]
+__all__ = ["predict"]

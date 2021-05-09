@@ -4,13 +4,16 @@ model_file: "model.pkl"
 metric_file: "metrics.json"
 splitting_params:
   val_size: 0.2
-  random_state: 42
-  stratify:
+  random_state: 21
+  stratify: 'target'
+  shuffle: True
 model_params:
   model_type: "RandomForestClassifier"
+  n_estimators : 300
 metric_params:
     - "accuracy"
-    - "roc_auc"  
+    - "roc_auc"
+    - "f1"
 feature_params:
   categorical:
     - "sex"

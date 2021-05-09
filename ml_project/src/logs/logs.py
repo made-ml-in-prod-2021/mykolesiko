@@ -1,7 +1,10 @@
+"""
+    Module for logging configuration
+"""
 import logging
 import yaml
 import logging.config
-from  src.utils import get_path
+from src.utils import get_path
 from src.constants import MODELS_DIR, CONFIG_DIR
 import os
 
@@ -15,6 +18,6 @@ def setup_logging(log_yaml: str, log_file_path: str):
     path = os.path.join(os.getcwd(), CONFIG_DIR, log_yaml)
     with open(path) as config:
         dict_yaml = yaml.safe_load(config)
-        dict_yaml['handlers']['file_handler']['filename'] = log_file_path
-        #print(dict_yaml)
+        dict_yaml["handlers"]["file_handler"]["filename"] = log_file_path
+        # print(dict_yaml)
         logging.config.dictConfig(dict_yaml)

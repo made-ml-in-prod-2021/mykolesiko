@@ -1,3 +1,6 @@
+"""
+    work with data
+"""
 from .split_data import split_train_val_data
 from .generate_data import generate_data
 

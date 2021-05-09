@@ -1,7 +1,7 @@
-from src import implement_pipeline
+#from src import implement_pipeline
 import os
 import pytest
-from src import model_creation_pipeline
+from src.implement_pipeline import model_creation_pipeline
 from src.model import ModelClass
 from src.constants import DATA_DIR, DATA_RAW_DIR
 from src.data import generate_data

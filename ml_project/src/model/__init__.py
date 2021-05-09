@@ -1,5 +1,6 @@
-from .model_fit_predict import (
+"""
     ModelClass
-)
+"""
+from .model_fit_predict import ModelClass
 
-__all__ = [ModelClass]
+__all__ = ["ModelClass"]

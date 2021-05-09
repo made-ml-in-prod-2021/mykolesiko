@@ -18,3 +18,45 @@ INFO: created model  ModelParams(model_type='GradientBoostingClassifier')
 INFO: train model
 INFO: predict values
 INFO: metrics are  {'accuracy': 0.8360655737704918}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='GradientBoosting', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True), model_params=ModelParams(model_type='GradientBoostingClassifier', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc', 'f1'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True)
+INFO: created model  ModelParams(model_type='GradientBoostingClassifier', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.7704918032786885, 'roc_auc': 0.7635281385281386, 'f1': 0.8000000000000002}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='GradientBoosting', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True), model_params=ModelParams(model_type='GradientBoostingClassifier', n_estimators=200, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc', 'f1'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True)
+INFO: created model  ModelParams(model_type='GradientBoostingClassifier', n_estimators=200, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.7704918032786885, 'roc_auc': 0.7635281385281386, 'f1': 0.8000000000000002}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='GradientBoosting', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True), model_params=ModelParams(model_type='GradientBoostingClassifier', n_estimators=300, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc', 'f1'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True)
+INFO: created model  ModelParams(model_type='GradientBoostingClassifier', n_estimators=300, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.7540983606557377, 'roc_auc': 0.7483766233766235, 'f1': 0.7826086956521738}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='GradientBoosting', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True), model_params=ModelParams(model_type='GradientBoostingClassifier', n_estimators=300, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc', 'f1'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True)
+INFO: created model  ModelParams(model_type='GradientBoostingClassifier', n_estimators=300, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.7540983606557377, 'roc_auc': 0.7483766233766235, 'f1': 0.7826086956521738}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='GradientBoosting', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True), model_params=ModelParams(model_type='GradientBoostingClassifier', n_estimators=300, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc', 'f1'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True)
+INFO: created model  ModelParams(model_type='GradientBoostingClassifier', n_estimators=300, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.7704918032786885, 'roc_auc': 0.7635281385281386, 'f1': 0.8000000000000002}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='GradientBoosting', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True), model_params=ModelParams(model_type='GradientBoostingClassifier', n_estimators=300, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc', 'f1'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.2, random_state=42, stratify='target', shuffle=True)
+INFO: created model  ModelParams(model_type='GradientBoostingClassifier', n_estimators=300, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.7540983606557377, 'roc_auc': 0.7483766233766235, 'f1': 0.7826086956521738}

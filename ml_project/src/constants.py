@@ -1,3 +1,6 @@
+'''
+    Constants
+'''
 MODELS_DIR = "models"
 CONFIG_DIR = "configs"
 LOGS_DIR = "logs"
