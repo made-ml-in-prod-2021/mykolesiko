@@ -52,7 +52,7 @@ Assuming that current directory is root of git repository you should make next s
    python -m src.predict --data [path_to_data_file] --model [path_to_model_file] --transformer [path_transformer_file] -output_path [path_to_save_predictions]
 
    try example:
-   python -m src.predict --data ./data/test/test1.csv --model ./models/RandomForest/model.pkl --transformer ./models/RandomForest/transformer.pkl --output ./predicts
+   python -m src.predict --data ./data/test/test1.csv --config ./configs/model_randomforest.yaml  --model ./models/RandomForest/model.pkl --transformer ./models/RandomForest/transformer.pkl --output ./predicts
 
    check files in ./predicts
 

@@ -14,4 +14,8 @@ loggers:
         level: INFO
         handlers: [file_handler]
         propagate: no
+     test:
+        level: INFO
+        handlers: [file_handler]
+        propagate: no
 

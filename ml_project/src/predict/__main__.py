@@ -24,6 +24,16 @@ def setup_parser(parser):
     )
 
     parser.add_argument(
+        "--config",
+        "-c",
+        required=True,
+        default=None,
+        help="path to config model file",
+        metavar="FPATH",
+    )
+
+
+    parser.add_argument(
         "--model",
         "-mp",
         required=True,
@@ -67,6 +77,6 @@ if __name__ == "__main__":
     # arguments.callback(arguments)
 
     predictions = predict(
-        arguments.data, arguments.model, arguments.transformer, arguments.output
+        arguments.data, arguments.config, arguments.model, arguments.transformer, arguments.output
     )
 

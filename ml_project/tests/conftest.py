@@ -1,10 +1,13 @@
-#from src import implement_pipeline
+    #from src import implement_pipeline
 import os
 import pytest
+import logging
+import sys
 from src.implement_pipeline import model_creation_pipeline
 from src.model import ModelClass
 from src.constants import DATA_DIR, DATA_RAW_DIR
 from src.data import generate_data
+from src.logs import setup_logging
 
 
 from marshmallow_dataclass import class_schema
@@ -18,6 +21,7 @@ from typing import List, Optional, Any
 TEST_PATH = "tests"
 TEST_DATA_PATH = "tests"
 TEST_CONFIG_YAML = "model_test.yaml"
+TEST_LOG_YAML = "logging_default.yaml"
 TRAIN_FILE = "heart.csv"
 TEST_FILE = "test.csv"
 TRANSFORMER_FILE = "transformer.pkl"
@@ -93,3 +97,14 @@ def transformer_path() -> str:
 def prediction_path() -> str:
     file = os.path.join(os.getcwd(), TEST_PATH)
     return file
+
+@pytest.fixture()
+def logger():
+    setup_logging(
+        TEST_LOG_YAML,
+        os.path.join(os.getcwd(), TEST_PATH, "test.log"),
+    )
+    logger_test = logging.getLogger("test")
+    return logger_test
+
+

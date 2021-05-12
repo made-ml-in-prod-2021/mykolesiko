@@ -72,8 +72,8 @@ from src.config import (
         )
     ],
 )
-def test_read_training_config_params(
-    test_config_yaml: str, yaml_params: TrainingConfigParams
-):
+def test_read_training_config_params(test_config_yaml: str, yaml_params: TrainingConfigParams, logger):
+    logger.info(f"test_read_training_config_params")
     params = read_training_config_params(test_config_yaml)
+    logger.info(f"config = {params}")
     assert params == yaml_params

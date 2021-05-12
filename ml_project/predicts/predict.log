@@ -14,3 +14,37 @@ INFO: start predict data from ./data/test/test1.csv, model from ./models/LogReg/
 INFO: load transformer from  ./models/GradientBoosting/transformer.pkl
 INFO: load model: LogisticRegression(solver='liblinear')
 INFO: read data shape: (100, 13)
+INFO: read config data from ./configs/model_randomforest.yaml
+INFO: read config data from ./configs/model_randomforest.yaml
+INFO: read config data from ./configs/model_randomforest.yaml
+INFO: read config data from ./configs/model_randomforest.yaml
+INFO: read config data from ./configs/model_randomforest.yaml
+INFO: start predict data from ./data/test/test1.csv, model from ./models/RandomForest/model.pkl
+INFO: load transformer from  ./models/RandomForest/transformer.pkl
+INFO: load model: RandomForestClassifier(n_estimators=300)
+INFO: read data shape: (100, 13)
+INFO: read config data from ./configs/model_randomforest.yaml
+INFO: start predict data from ./data/test/test1.csv, model from ./models/RandomForest/model.pkl
+INFO: load transformer from  ./models/RandomForest/transformer.pkl
+INFO: load model: RandomForestClassifier(n_estimators=300)
+INFO: read data shape: (100, 13)
+INFO: read config data from ./configs/model_randomforest.yaml
+INFO: start predict data from ./data/test/test1.csv, model from ./models/RandomForest/model.pkl
+INFO: load transformer from  ./models/RandomForest/transformer.pkl
+INFO: load model: RandomForestClassifier(n_estimators=300)
+INFO: read data shape: (100, 13)
+INFO: read config data from ./configs/model_randomforest.yaml
+INFO: start predict data from ./data/test/test1.csv, model from ./models/RandomForest/model.pkl
+INFO: load transformer from  ./models/RandomForest/transformer.pkl
+INFO: load model: RandomForestClassifier(n_estimators=300)
+INFO: read data shape: (100, 13)
+INFO: read config data from ./configs/model_randomforest.yaml
+INFO: start predict data from ./data/test/test1.csv, model from ./models/RandomForest/model.pkl
+INFO: load transformer from  ./models/RandomForest/transformer.pkl
+INFO: load model: RandomForestClassifier(n_estimators=300)
+INFO: read data shape: (100, 13)
+INFO: read config data from ./configs/model_randomforest.yaml
+INFO: start predict data from ./data/test/test1.csv, model from ./models/RandomForest/model.pkl
+INFO: load transformer from  ./models/RandomForest/transformer.pkl
+INFO: load model: RandomForestClassifier(n_estimators=300)
+INFO: read data shape: (100, 13)
