@@ -9,8 +9,7 @@ def split_train_val_data(data: pd.DataFrame, target: pd.Series, \
     """
     :rtype: object
     """
-    # stratify = None
-    # print(params.stratify, params.shuffle)
+
     stratify = None
     if params.stratify is not None:
         stratify = target

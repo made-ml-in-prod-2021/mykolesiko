@@ -48,7 +48,6 @@ NUM_ROWS = 100
 
 @pytest.fixture()
 def test_data_path() -> str:
-    print(params)
     path = os.path.join(os.getcwd(), TEST_DATA_PATH)
     if (not os.path.exists(path)):
         os.mkdir(path)

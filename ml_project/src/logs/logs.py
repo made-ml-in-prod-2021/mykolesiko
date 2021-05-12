@@ -19,5 +19,4 @@ def setup_logging(log_yaml: str, log_file_path: str):
     with open(path) as config:
         dict_yaml = yaml.safe_load(config)
         dict_yaml["handlers"]["file_handler"]["filename"] = log_file_path
-        # print(dict_yaml)
         logging.config.dictConfig(dict_yaml)

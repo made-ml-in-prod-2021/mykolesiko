@@ -28,7 +28,7 @@ class ModelClass:
         """
             load from file
         """
-        print(path)
+
         with open(path, "rb") as f:
             self.model = pickle.load(f)
         return self.model
@@ -40,9 +40,6 @@ class ModelClass:
 
         self.model_params = model_params
         self.metric_params = metric_params
-        print(self.model_params.model_type)
-        # print(model_params)
-        # print(model_params.n_estimators, model_params.n_iter, model_params.solver)
         if self.model_params.model_type == "RandomForestClassifier":
             self.model = RandomForestClassifier(
                 n_estimators=model_params.n_estimators,
@@ -56,7 +53,6 @@ class ModelClass:
                 max_iter=model_params.n_iter, solver=model_params.solver
             ).fit(features, target)
 
-        # print(self.model)
         return self.model
 
     def predict(self, features: pd.DataFrame) -> np.ndarray:
@@ -79,7 +75,6 @@ class ModelClass:
             metrics_dict.update({"roc_auc": metrics.roc_auc_score(target, predicts)})
         if "f1" in self.metric_params:
             metrics_dict.update({"f1": metrics.f1_score(target, predicts)})
-        print(metrics_dict)
         return metrics_dict
 
     def serialize_model(self, output: str) -> str:

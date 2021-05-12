@@ -27,5 +27,4 @@ def predict(data_path: str, model_path: str, transformer_path: str, save_path: s
     data_new = data.copy()
     data_new["target"] = predictions
     data_new.to_csv(os.path.join(os.getcwd(), save_path, "prediction.csv"))
-    print(data_new.head())
     return data_new

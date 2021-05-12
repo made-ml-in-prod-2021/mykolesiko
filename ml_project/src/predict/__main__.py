@@ -69,4 +69,4 @@ if __name__ == "__main__":
     predictions = predict(
         arguments.data, arguments.model, arguments.transformer, arguments.output
     )
-    # print(metrics)
+

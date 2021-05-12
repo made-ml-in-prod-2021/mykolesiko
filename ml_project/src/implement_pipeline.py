@@ -123,4 +123,4 @@ if __name__ == "__main__":
     # arguments.callback(arguments)
 
     params, model = model_creation_pipeline(arguments.config)
-    # print(metrics)
+
