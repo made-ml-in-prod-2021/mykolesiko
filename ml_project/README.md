@@ -1,3 +1,5 @@
+![CI workflow](https://github.com/made-ml-in-prod-2021/mykolesiko/actions/workflows/homework1.yml/badge.svg?branch=homework1)
+
 Homework N1
 
 The homework is dedicated to prediction of heart desease using data of some medical
