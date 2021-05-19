@@ -20,7 +20,7 @@ Assuming that current directory is root of git repository you should make next s
        python -m venv .venv
        source .venv/bin/activate
        pip install -r requirements.txt
-``
+```
 
 2. To run the the rest service you can do it two ways:
 
@@ -34,9 +34,11 @@ Or you can Pull docker image from Docker Hub:
 
 ```
 docker pull mykolesiko/model_inference:v1
+
 ```
 
-3. Then Run docker with your rest service:
+3. Then Run docker with the rest service:
+
 ```
 docker run -p 8000:8000 mykolesiko/model_inference:v1
 
@@ -46,6 +48,12 @@ You should have the file with data in csv format. You should pass the arguments 
 
 ```
 python -m src.make_request --host [host] --port [port]  --path_to_data [path to csv file] --num_predictions [num_predictions]
+
+```
+To test it try example:
+
+```
+python -m src.make_request  --path_to_data data_to_predict.csv 
 
 ```
 
@@ -59,9 +67,4 @@ Roadmap
 6 |-| Оптимизируйте размер docker image(опишите в readme.md что вы предприняли для сокращения размера и каких результатов удалось добиться) | 3
 7 |+| Опубликуйте образ в https://hub.docker.com/, используя docker push | 2
 8 |+|Напишите в readme корректные команды docker pull/run, которые должны привести к тому, что локально поднимется на inference ваша модель | 3
-9 |-|Проведите самооценку | 1
-
-
-
-
-
+9 |+|Проведите самооценку | 1
