@@ -4,7 +4,6 @@ import requests
 import click
 
 
-
 @click.command()
 @click.option("--host", default="localhost")
 @click.option("--port", default=8000)
@@ -25,5 +24,5 @@ def predict(host, port, path_to_data, num_predictions):
         print(response.json())
 
 
-if __name__ == "__main__":	
-	predict()
+if __name__ == "__main__":
+    predict()

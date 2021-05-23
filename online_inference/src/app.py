@@ -10,7 +10,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.pipeline import Pipeline
-from src.validate_data import PredictResponse, PredictRequest
+from src.validate_data import PredictResponse, PredictRequest, FEATURES
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -18,35 +18,45 @@ logger.setLevel(logging.INFO)
 TRANSFORMER_PATH = "models/transformer.pkl"
 MODEL_PATH = "models/model.pkl"
 
+
 def int_to_diagnose(target: int) -> str:
-   if (target == 1):
-        return ("Sick")
-   else:
-        return ("Health")
+    if target == 1:
+        return "Sick"
+    else:
+        return "Health"
+
 
 def load_object(path: str) -> Pipeline:
     with open(path, "rb") as f:
         logger.info(f"load model from path: {path}")
         return pickle.load(f)
 
+
 model: Optional[Pipeline] = None
 
-def make_predict(data: List, features: List[str], model: Pipeline) -> List[PredictResponse]:
 
-    data = pd.DataFrame(data, columns=features)
-    #ids = map(int(data["id"].tolist()))
+def check_columns_order(data, columns):
+    data_new = []
+    for i in range(len(data)):
+        data_new.append([data[i][columns.index(feature)] for feature in FEATURES])
+    return data_new
 
-    logger.info(f"load model: {model}")
+
+def make_predict(
+    data: List, features: List[str], model: Pipeline
+) -> List[PredictResponse]:
+    logger.info(f"start make predictions")
+    data_new = check_columns_order(data, features)
+    data_new = pd.DataFrame(data_new, columns=FEATURES)
     model = load_object(MODEL_PATH)
     logger.info(f"load model: {model}")
     transformer = load_object(TRANSFORMER_PATH)
     logger.info(f"load transformer: {transformer}")
-    data_processed = transformer.transform(data)
+    data_processed = transformer.transform(data_new)
     predictions = model.predict(data_processed)
-    predictions_str = list(map(int_to_diagnose,predictions))
-    return [
-         PredictResponse(diagnosis=prediction) for  prediction in  predictions_str
-    ]
+    logger.info(f"got predictions: {predictions}")
+    predictions_str = list(map(int_to_diagnose, predictions))
+    return [PredictResponse(diagnosis=prediction) for prediction in predictions_str]
 
 
 app = FastAPI()
