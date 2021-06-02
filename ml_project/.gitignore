@@ -1,0 +1,8 @@
+.vscode
+build
+workspace.code-workspace
+dist
+.idea
+.venv
+*pycache*
+.coverage

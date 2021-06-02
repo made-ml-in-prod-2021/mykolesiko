@@ -1,0 +1,37 @@
+model_folder : "LogReg"
+input_data_file: "heart.csv"
+model_file: "model.pkl"
+metric_file: "metrics.json"
+splitting_params:
+  val_size: 0.2
+  random_state: 
+  stratify:  
+  shuffle: "True"
+model_params:
+  model_type: "LogisticRegression"
+  n_iter: 100
+  solver: "liblinear"
+metric_params:
+    - "accuracy"
+    - "roc_auc"
+    - "f1"  
+feature_params:
+  categorical:
+    - "sex"
+    - "cp"
+    - "fbs"
+    - "exang"
+    - "slope"
+    - "ca"
+    - "thal"
+  numerical:
+    - "age"
+    - "trestbps"
+    - "chol"
+    - "restecg"
+    - "thalach" 
+    - "oldpeak"
+  target: "target"
+transformer_params:
+  file:  "transformer.pkl"
+logging_config: "logging.yaml"
