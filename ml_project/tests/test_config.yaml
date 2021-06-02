@@ -1,0 +1,8 @@
+TEST_PATH : "tests"
+TEST_DATA_PATH : "tests"
+TEST_CONFIG_YAML : "model_test.yaml"
+TRAIN_FILE : "heart.csv"
+TEST_FILE : "test.csv"
+TRANSFORMER_FILE : "transformer.pkl"
+MODEL_PATH : "models"
+TEST_MODEL_FOLDER : "test"
