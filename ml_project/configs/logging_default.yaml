@@ -1,0 +1,21 @@
+version: 1
+formatters:
+    simple:
+        class: logging.Formatter
+        format: "%(levelname)s: %(message)s"
+handlers:
+    file_handler:
+        class: logging.FileHandler
+        filename: train.log
+        level: INFO
+        formatter: simple
+loggers:
+     train:
+        level: INFO
+        handlers: [file_handler]
+        propagate: no
+     test:
+        level: INFO
+        handlers: [file_handler]
+        propagate: no
+
