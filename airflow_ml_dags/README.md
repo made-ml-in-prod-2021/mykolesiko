@@ -37,7 +37,7 @@ There are 3 main dags:
    To predict - predict dag
 ```
 
-If you want to make the prediction, add variable with model path (named MODE_DIR) something like that:
+If you want to make the prediction, add variable with model path (named MODEL_DIR) something like that:
 
 ```
 	"data/model/2021-09-06/"
