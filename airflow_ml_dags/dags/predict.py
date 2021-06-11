@@ -24,18 +24,18 @@ with DAG(
 ) as dag:
 
     wait_for_data = FileSensor(
-        task_id="wait-for-data", poke_interval=5, retries=5, filepath=TEST_DATA_PATH
+        task_id="wait-for-data", poke_interval=10, retries=5, filepath=TEST_DATA_PATH
     )
 
     wait_for_model = FileSensor(
-        task_id="wait-for-model", poke_interval=5, retries=5, filepath=MODEL_PATH
+        task_id="wait-for-model", poke_interval=10, retries=5, filepath=MODEL_PATH
     )
 
     predict = DockerOperator(
         image="airflow-predict",
         task_id="predict",
         do_xcom_push=False,
-        command = f'--input-dir /data/raw/ --model-dir /{model_dir} --output-dir /data/predicted/{{ ds }}',
+        command = f'--input-dir /data/raw/ --model-dir /{model_dir} --output-dir /data/predicted/',
         volumes=['/d/katka/MADE/semester2/ML_in_production/airflow/airflow-examples/data:/data'],
     )
 

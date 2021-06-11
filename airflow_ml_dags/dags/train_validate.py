@@ -17,11 +17,11 @@ with DAG(
     schedule_interval="@weekly",
 ) as dag:
     wait_for_features = FileSensor(
-        task_id="wait-for-features", poke_interval=5, retries=5, filepath=RAW_DATA_PATH
+        task_id="wait-for-features", poke_interval=10, retries=5, filepath=RAW_DATA_PATH
     )
 
     wait_for_target = FileSensor(
-        task_id="wait-for-target", poke_interval=5, retries=5, filepath=RAW_TARGET_PATH
+        task_id="wait-for-target", poke_interval=10, retries=5, filepath=RAW_TARGET_PATH
     )
 
     preprocess = DockerOperator(
