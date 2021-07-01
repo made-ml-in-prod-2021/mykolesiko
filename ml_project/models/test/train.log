@@ -1,0 +1,628 @@
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8461538461538461}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8461538461538461}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8461538461538461}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8461538461538461}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8461538461538461}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8461538461538461}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start predict data from data\raw\heart.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\transformer.pkl
+INFO: load model: LogisticRegression(max_iter=1000, solver='liblinear')
+INFO: read data shape: (303, 14)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start predict data from data\raw\heart.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(max_iter=1000, solver='liblinear')
+INFO: read data shape: (303, 14)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(max_iter=1000, solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(max_iter=1000, solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(max_iter=1000, solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None), model_params=ModelParams(model_type='LogisticRegression'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: data.shape is (303, 14)
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None)
+INFO: train_data.shape is (212, 28)
+INFO: val_data.shape is (91, 28)
+INFO: created model  ModelParams(model_type='LogisticRegression')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571}
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(max_iter=1000, solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: test
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: read config data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\model_test.yaml
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: test
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: read config data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\model_test.yaml
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: read config data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\model_test.yaml
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: test
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: read config data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\model_test.yaml
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: test
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: read config data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\model_test.yaml
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: read config data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\model_test.yaml
+INFO: start predict data from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\tests\test.csv, model from D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\model.pkl
+INFO: load transformer from  D:\katka\MADE\semester2\ML_in_production\mykolesiko\ml_project\models\test\transformer.pkl
+INFO: load model: LogisticRegression(solver='liblinear')
+INFO: read data shape: (100, 13)
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
+INFO: start train pipeline with params TrainingConfigParams(model_folder='test', input_data_file='heart.csv', model_file='model.pkl', metric_file='metrics.json', splitting_params=SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True), model_params=ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear'), metric_params=['accuracy', 'roc_auc'], feature_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target'), transformer_params=TransformerParams(file='transformer.pkl'), logging_config='logging_default.yaml')
+INFO: transform the features FeatureParams(categorical=['sex', 'cp', 'fbs', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'restecg', 'thalach', 'oldpeak'], target='target')
+INFO: splitted data SplittingParams(val_size=0.3, random_state=32, stratify=None, shuffle=True)
+INFO: created model  ModelParams(model_type='LogisticRegression', n_estimators=100, n_iter=100, solver='liblinear')
+INFO: train model
+INFO: predict values
+INFO: metrics are  {'accuracy': 0.8571428571428571, 'roc_auc': 0.8551740812379109}
